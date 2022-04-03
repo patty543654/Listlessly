@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListCreation">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/listCreateTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create a list"
+            android:gravity="center"
+            android:textSize="45sp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List Title"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/item1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <EditText
+                    android:id="@+id/item2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+                <EditText
+                    android:id="@+id/item3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+                <EditText
+                    android:id="@+id/item4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <EditText
+                    android:id="@+id/item25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+                <Button
+                    android:id="@+id/createButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Save List"
+                    android:onClick="createClicked"
+                    />
+            </LinearLayout>
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:layout_marginBottom="5dp">
+
+
+            <Button
+                android:id="@+id/editButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Edit Lists"
+                android:onClick="createToEdit"
+                />
+
+            <Button
+                android:id="@+id/newButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="createToHome"
+                android:text="New List" />
+
+            <Button
+                android:id="@+id/settingsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="createToSettings"
+                android:text="Settings" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
